@@ -6,12 +6,21 @@ Jupyter Notebooks to learn Linux Commands based on linuxcommand.org
 - Miniconda https://conda.io/docs/user-guide/install/index.html for Python 3.
 - git client
 
-After installing miniconda, open a terminal and run the following commands; its easier if the notebook is ran as root.
+- After installing miniconda, install jupyter notebook by running the following commands:
 
 ```bash
 conda update conda
 conda install notebook
-git clone <this repo>
+```
+
+
+## Clone this repository
+```bash
+git clone <this repo url>
+```
+
+## Run jupyter notebook
+```
 cd <into the repo directory>
 jupyter notebook --allow-root
 ```
