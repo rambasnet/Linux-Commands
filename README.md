@@ -22,5 +22,5 @@ git clone <this repo url>
 ## Run jupyter notebook
 ```
 cd <into the repo directory>
-jupyter notebook --allow-root
+jupyter notebook # add --allow-root if running as a root
 ```
